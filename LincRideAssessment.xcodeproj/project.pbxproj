@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847275492D720B1400BA2C6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847275402D720B1400BA2C6B /* Preview Assets.xcassets */; };
+		8472754A2D720B1400BA2C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847275422D720B1400BA2C6B /* Assets.xcassets */; };
+		8472754B2D720B1400BA2C6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275432D720B1400BA2C6B /* ContentView.swift */; };
+		8472754C2D720B1400BA2C6B /* LincRideAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847275442D720B1400BA2C6B /* LincRideAssessment.xcdatamodeld */; };
+		8472754D2D720B1400BA2C6B /* LincRideAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275452D720B1400BA2C6B /* LincRideAssessmentApp.swift */; };
+		8472754E2D720B1400BA2C6B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275462D720B1400BA2C6B /* Persistence.swift */; };
+		847275512D720B1800BA2C6B /* LincRideAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472754F2D720B1800BA2C6B /* LincRideAssessmentTests.swift */; };
+		847275552D720B1B00BA2C6B /* LincRideAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275522D720B1B00BA2C6B /* LincRideAssessmentUITests.swift */; };
+		847275562D720B1B00BA2C6B /* LincRideAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275532D720B1B00BA2C6B /* LincRideAssessmentUITestsLaunchTests.swift */; };
+		847275972D7234C600BA2C6B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275952D7234C600BA2C6B /* LocationManager.swift */; };
+		8472759C2D725A9600BA2C6B /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472759B2D725A9600BA2C6B /* PlaceDetailsView.swift */; };
+		847275A22D7264E500BA2C6B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472759E2D7264E500BA2C6B /* HomeTabView.swift */; };
+		847275A32D7264E500BA2C6B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472759F2D7264E500BA2C6B /* MapView.swift */; };
+		847275A42D7264E500BA2C6B /* SavedPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275A02D7264E500BA2C6B /* SavedPlacesView.swift */; };
+		847275A72D72650E00BA2C6B /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847275A52D72650E00BA2C6B /* Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847275242D72094100BA2C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847275062D72093F00BA2C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472750D2D72093F00BA2C6B;
+			remoteInfo = LincRideAssessment;
+		};
+		8472752E2D72094100BA2C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847275062D72093F00BA2C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472750D2D72093F00BA2C6B;
+			remoteInfo = LincRideAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8472750E2D72093F00BA2C6B /* LincRideAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LincRideAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847275232D72094100BA2C6B /* LincRideAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LincRideAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472752D2D72094100BA2C6B /* LincRideAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LincRideAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847275402D720B1400BA2C6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		847275422D720B1400BA2C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847275432D720B1400BA2C6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		847275452D720B1400BA2C6B /* LincRideAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincRideAssessmentApp.swift; sourceTree = "<group>"; };
+		847275462D720B1400BA2C6B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		847275482D720B1400BA2C6B /* LincRideAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LincRideAssessment.xcdatamodel; sourceTree = "<group>"; };
+		8472754F2D720B1800BA2C6B /* LincRideAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincRideAssessmentTests.swift; sourceTree = "<group>"; };
+		847275522D720B1B00BA2C6B /* LincRideAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincRideAssessmentUITests.swift; sourceTree = "<group>"; };
+		847275532D720B1B00BA2C6B /* LincRideAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincRideAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847275952D7234C600BA2C6B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8472759B2D725A9600BA2C6B /* PlaceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
+		8472759E2D7264E500BA2C6B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		8472759F2D7264E500BA2C6B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		847275A02D7264E500BA2C6B /* SavedPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlacesView.swift; sourceTree = "<group>"; };
+		847275A52D72650E00BA2C6B /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8472750B2D72093F00BA2C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847275202D72094100BA2C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472752A2D72094100BA2C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847275052D72093F00BA2C6B = {
+			isa = PBXGroup;
+			children = (
+				847275472D720B1400BA2C6B /* LincRideAssessment */,
+				847275502D720B1800BA2C6B /* LincRideAssessmentTests */,
+				847275542D720B1B00BA2C6B /* LincRideAssessmentUITests */,
+				8472750F2D72093F00BA2C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8472750F2D72093F00BA2C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8472750E2D72093F00BA2C6B /* LincRideAssessment.app */,
+				847275232D72094100BA2C6B /* LincRideAssessmentTests.xctest */,
+				8472752D2D72094100BA2C6B /* LincRideAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847275412D720B1400BA2C6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				847275402D720B1400BA2C6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		847275472D720B1400BA2C6B /* LincRideAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				847275432D720B1400BA2C6B /* ContentView.swift */,
+				847275452D720B1400BA2C6B /* LincRideAssessmentApp.swift */,
+				847275A62D72650E00BA2C6B /* Extentions */,
+				847275962D7234C600BA2C6B /* LocationManager */,
+				847275652D7210A400BA2C6B /* Views */,
+				847275582D720BB200BA2C6B /* CoreData */,
+				847275412D720B1400BA2C6B /* Preview Content */,
+				847275422D720B1400BA2C6B /* Assets.xcassets */,
+			);
+			path = LincRideAssessment;
+			sourceTree = "<group>";
+		};
+		847275502D720B1800BA2C6B /* LincRideAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				8472754F2D720B1800BA2C6B /* LincRideAssessmentTests.swift */,
+			);
+			path = LincRideAssessmentTests;
+			sourceTree = "<group>";
+		};
+		847275542D720B1B00BA2C6B /* LincRideAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847275522D720B1B00BA2C6B /* LincRideAssessmentUITests.swift */,
+				847275532D720B1B00BA2C6B /* LincRideAssessmentUITestsLaunchTests.swift */,
+			);
+			path = LincRideAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		847275582D720BB200BA2C6B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				847275442D720B1400BA2C6B /* LincRideAssessment.xcdatamodeld */,
+				847275462D720B1400BA2C6B /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		847275652D7210A400BA2C6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8472759E2D7264E500BA2C6B /* HomeTabView.swift */,
+				8472759B2D725A9600BA2C6B /* PlaceDetailsView.swift */,
+				847275A12D7264E500BA2C6B /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		847275962D7234C600BA2C6B /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				847275952D7234C600BA2C6B /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		847275A12D7264E500BA2C6B /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8472759F2D7264E500BA2C6B /* MapView.swift */,
+				847275A02D7264E500BA2C6B /* SavedPlacesView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		847275A62D72650E00BA2C6B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				847275A52D72650E00BA2C6B /* Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8472750D2D72093F00BA2C6B /* LincRideAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847275372D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessment" */;
+			buildPhases = (
+				8472750A2D72093F00BA2C6B /* Sources */,
+				8472750B2D72093F00BA2C6B /* Frameworks */,
+				8472750C2D72093F00BA2C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LincRideAssessment;
+			packageProductDependencies = (
+			);
+			productName = LincRideAssessment;
+			productReference = 8472750E2D72093F00BA2C6B /* LincRideAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847275222D72094100BA2C6B /* LincRideAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472753A2D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessmentTests" */;
+			buildPhases = (
+				8472751F2D72094100BA2C6B /* Sources */,
+				847275202D72094100BA2C6B /* Frameworks */,
+				847275212D72094100BA2C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847275252D72094100BA2C6B /* PBXTargetDependency */,
+			);
+			name = LincRideAssessmentTests;
+			packageProductDependencies = (
+			);
+			productName = LincRideAssessmentTests;
+			productReference = 847275232D72094100BA2C6B /* LincRideAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8472752C2D72094100BA2C6B /* LincRideAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472753D2D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessmentUITests" */;
+			buildPhases = (
+				847275292D72094100BA2C6B /* Sources */,
+				8472752A2D72094100BA2C6B /* Frameworks */,
+				8472752B2D72094100BA2C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8472752F2D72094100BA2C6B /* PBXTargetDependency */,
+			);
+			name = LincRideAssessmentUITests;
+			packageProductDependencies = (
+			);
+			productName = LincRideAssessmentUITests;
+			productReference = 8472752D2D72094100BA2C6B /* LincRideAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847275062D72093F00BA2C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8472750D2D72093F00BA2C6B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					847275222D72094100BA2C6B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8472750D2D72093F00BA2C6B;
+					};
+					8472752C2D72094100BA2C6B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8472750D2D72093F00BA2C6B;
+					};
+				};
+			};
+			buildConfigurationList = 847275092D72093F00BA2C6B /* Build configuration list for PBXProject "LincRideAssessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847275052D72093F00BA2C6B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8472750F2D72093F00BA2C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8472750D2D72093F00BA2C6B /* LincRideAssessment */,
+				847275222D72094100BA2C6B /* LincRideAssessmentTests */,
+				8472752C2D72094100BA2C6B /* LincRideAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8472750C2D72093F00BA2C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847275492D720B1400BA2C6B /* Preview Assets.xcassets in Resources */,
+				8472754A2D720B1400BA2C6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847275212D72094100BA2C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472752B2D72094100BA2C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8472750A2D72093F00BA2C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472754B2D720B1400BA2C6B /* ContentView.swift in Sources */,
+				8472759C2D725A9600BA2C6B /* PlaceDetailsView.swift in Sources */,
+				847275A72D72650E00BA2C6B /* Extentions.swift in Sources */,
+				847275972D7234C600BA2C6B /* LocationManager.swift in Sources */,
+				8472754C2D720B1400BA2C6B /* LincRideAssessment.xcdatamodeld in Sources */,
+				8472754D2D720B1400BA2C6B /* LincRideAssessmentApp.swift in Sources */,
+				8472754E2D720B1400BA2C6B /* Persistence.swift in Sources */,
+				847275A22D7264E500BA2C6B /* HomeTabView.swift in Sources */,
+				847275A32D7264E500BA2C6B /* MapView.swift in Sources */,
+				847275A42D7264E500BA2C6B /* SavedPlacesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472751F2D72094100BA2C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847275512D720B1800BA2C6B /* LincRideAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847275292D72094100BA2C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847275552D720B1B00BA2C6B /* LincRideAssessmentUITests.swift in Sources */,
+				847275562D720B1B00BA2C6B /* LincRideAssessmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847275252D72094100BA2C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472750D2D72093F00BA2C6B /* LincRideAssessment */;
+			targetProxy = 847275242D72094100BA2C6B /* PBXContainerItemProxy */;
+		};
+		8472752F2D72094100BA2C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472750D2D72093F00BA2C6B /* LincRideAssessment */;
+			targetProxy = 8472752E2D72094100BA2C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		847275352D72094100BA2C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847275362D72094100BA2C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847275382D72094100BA2C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LincRideAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for better location tracking.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby places.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847275392D72094100BA2C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LincRideAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for better location tracking.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby places.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8472753B2D72094100BA2C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LincRideAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LincRideAssessment";
+			};
+			name = Debug;
+		};
+		8472753C2D72094100BA2C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LincRideAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LincRideAssessment";
+			};
+			name = Release;
+		};
+		8472753E2D72094100BA2C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LincRideAssessment;
+			};
+			name = Debug;
+		};
+		8472753F2D72094100BA2C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LB7TGGTXG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saladel.LincRideAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LincRideAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847275092D72093F00BA2C6B /* Build configuration list for PBXProject "LincRideAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847275352D72094100BA2C6B /* Debug */,
+				847275362D72094100BA2C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847275372D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847275382D72094100BA2C6B /* Debug */,
+				847275392D72094100BA2C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472753A2D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472753B2D72094100BA2C6B /* Debug */,
+				8472753C2D72094100BA2C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472753D2D72094100BA2C6B /* Build configuration list for PBXNativeTarget "LincRideAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472753E2D72094100BA2C6B /* Debug */,
+				8472753F2D72094100BA2C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847275442D720B1400BA2C6B /* LincRideAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847275482D720B1400BA2C6B /* LincRideAssessment.xcdatamodel */,
+			);
+			currentVersion = 847275482D720B1400BA2C6B /* LincRideAssessment.xcdatamodel */;
+			path = LincRideAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847275062D72093F00BA2C6B /* Project object */;
+}
