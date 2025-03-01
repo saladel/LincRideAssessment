@@ -87,20 +87,7 @@ struct PlaceDetailsView: View {
                         }
                 }
                 
-                // directions
-                Button {
-                    getDirectons = true
-                    show = false
-                } label: {
-                    Text("Get Directions")
-                        .font(.headline)
-                        .foregroundStyle(.blue)
-                        .padding()
-                        .overlay {
-                            RoundedRectangle(cornerRadius: 4)
-                                .stroke(Color.purple, lineWidth: 1)
-                        }
-                }
+                Spacer()
                 
                 // saves the place
                 Button {
