@@ -27,6 +27,7 @@ struct PlaceDetailsView: View {
                 VStack(alignment: .leading) {
                     Text(selectedPlace?.placemark.name ?? "")
                         .font(.title2)
+                        .lineLimit(2)
                         .fontWeight(.semibold)
                     
                     Text(selectedPlace?.placemark.title ?? "")
@@ -40,6 +41,7 @@ struct PlaceDetailsView: View {
                         Text(category)
                             .font(.caption)
                             .foregroundStyle(.secondary)
+                            .lineLimit(2)
                     }
                 }
                 

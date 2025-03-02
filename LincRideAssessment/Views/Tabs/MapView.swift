@@ -55,7 +55,7 @@ struct MapView: View {
                     systemImage: "mappin.and.ellipse",
                     coordinate: placeMark.coordinate
                 )
-                .tint(.red)
+                .tint(.purple)
             }
         }
         .onChange(of: selectPlaceOnMap) { oldValue, newValue in
@@ -245,33 +245,7 @@ class SearchCompleter: NSObject, ObservableObject, MKLocalSearchCompleterDelegat
     }
 }
 
-extension MKCoordinateRegion {
-    init(coordinates: [CLLocationCoordinate2D]) {
-        var minLat: CLLocationDegrees = 90.0
-        var maxLat: CLLocationDegrees = -90.0
-        var minLon: CLLocationDegrees = 180.0
-        var maxLon: CLLocationDegrees = -180.0
-        
-        for coordinate in coordinates {
-            minLat = min(minLat, coordinate.latitude)
-            maxLat = max(maxLat, coordinate.latitude)
-            minLon = min(minLon, coordinate.longitude)
-            maxLon = max(maxLon, coordinate.longitude)
-        }
-        
-        let center = CLLocationCoordinate2D(
-            latitude: (minLat + maxLat) / 2,
-            longitude: (minLon + maxLon) / 2
-        )
-        
-        let span = MKCoordinateSpan(
-            latitudeDelta: (maxLat - minLat) * 1.5,
-            longitudeDelta: (maxLon - minLon) * 1.5
-        )
-        
-        self.init(center: center, span: span)
-    }
-}
+
 
 
 #Preview {
